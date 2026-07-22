@@ -1,14 +1,62 @@
+
 import java.util.*;
-class Example{
-	public static void main(String args[]){
+class Demo {
+	
+	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
-		System.out.print("Input marks: ");
-		double avg = input.nextDouble();
+		
+		int[] ar = new int[10];
+		
+		// ----------- Read Numbers -----------
+		System.out.print("Enter number 1: ");
+		ar[0] = input.nextInt();
+		
+		System.out.print("Enter number 2: ");
+		ar[1] = input.nextInt();
+		
+		System.out.print("Enter number 3: ");
+		ar[2] = input.nextInt();
+		
+		System.out.print("Enter number 4: ");
+		ar[3] = input.nextInt();
+		
+		System.out.print("Enter number 5: ");
+		ar[4] = input.nextInt();
+		
+		System.out.print("Enter number 6: ");
+		ar[5] = input.nextInt();
+		
+		System.out.print("Enter number 7: ");
+		ar[6] = input.nextInt();
+		
+		System.out.print("Enter number 8: ");
+		ar[7] = input.nextInt();
+		
+		System.out.print("Enter number 9: ");
+		ar[8] = input.nextInt();
+		
+		System.out.print("Enter number 10: ");
+		ar[9] = input.nextInt();
+
 		
 		
-		System.out.println("Grade A"); // 75 - 100
-		System.out.println("Grade B"); // 65 - 75
-		System.out.println("Grade C"); // 50 - 65
-		System.out.println("Grade F"); // <50
-	}
+		
+		// ------- Find Total ---------
+		
+		int total = 0;
+		
+		total += ar[0];
+		total += ar[1];
+		total += ar[2];
+		total += ar[3];
+		total += ar[4];
+		total += ar[5];
+		total += ar[6];
+		total += ar[7];
+		total += ar[8];
+		total += ar[9];
+		
+		System.out.println("Total: " + total);
+    }
 }
+
