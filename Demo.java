@@ -2,20 +2,12 @@
 import java.util.*;
 
 class Demo {
-{	
- // int x = 100;
-
-		int x;
-		x = 100;
-		System.out.println(x);
-
-		// int[] arr = new int[5];
-
 		int[] arr;
-		arr = new int[5];
-		System.out.println(arr);
+		arr = new int[]{100, 200, 300};
 		
-		arr[0] = 100;
-		System.out.println(arr[0])
-    }
+		System.out.println(arr[0]); 
+		System.out.println(arr[1]);
+		System.out.println(arr[2]);
 }
+
+
