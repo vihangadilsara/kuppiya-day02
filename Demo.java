@@ -1,8 +1,9 @@
 
 import java.util.*;
+
 class Demo {
-	
-// int x = 100;
+{	
+ // int x = 100;
 
 		int x;
 		x = 100;
