@@ -1,7 +1,7 @@
 import java.util.*;
 class Example{
 	
-	public static void printTotal(int num1, int num2){
+	public static void printTotal(int a, int b){
 		// --------------- Process ---------------------
 		int total = num1 + num2;
 		
@@ -19,4 +19,6 @@ class Example{
 		
 		printTotal(num1, num2);
 	}
-}  
+}    
+
+
