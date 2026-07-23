@@ -1,7 +1,22 @@
-class Demo{
-
-
-
+import java.util.*;
+class Example{
 	
-}
-
+	public static void printTotal(int num1, int num2){
+		// --------------- Process ---------------------
+		int total = num1 + num2;
+		
+		// --------------- Output ---------------------
+		System.out.println("Total of "+num1+" and " +num2+" => " + total);
+	}
+	
+	public static void main(String args[]){
+		// --------------- Input ---------------------
+		Scanner input = new Scanner(System.in);
+		System.out.print("Enter num1: ");
+		int num1 = input.nextInt();
+		System.out.print("Enter num2: ");
+		int num2 = input.nextInt();
+		
+		printTotal(num1, num2);
+	}
+}  
